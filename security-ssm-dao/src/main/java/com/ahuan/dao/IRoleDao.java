@@ -43,8 +43,25 @@ public interface IRoleDao {
     List<Role> findOtherRole(String id) throws Exception;
 
     @Select("SELECT * FROM role where id = #{roleId}")
-    List<Role> findById(String roleId) throws Exception;
+    @Results({
+            @Result(id = true,property = "id",column = "id"),
+            @Result(property = "roleName",column = "rolename"),
+            @Result(property = "roleDesc",column = "roledesc")
+    }
+    )
+    Role findById(String roleId) throws Exception;
 
     @Insert("insert into ROLE_PERMISSION(PERMISSIONID,ROLEID) values(#{p},#{roleId})")
-    void addPermissionToRole(String roleId, String p);
+    void addPermissionToRole(@Param("roleId") String roleId,@Param("p") String p);
+
+
+    @Select("select * from role where id = #{roleId}")
+    @Results({
+            @Result(id = true,property = "id",column = "id"),
+            @Result(property = "roleName",column = "rolename"),
+            @Result(property = "roleDesc",column = "roledesc"),
+            @Result(column="id",property="permissions",javaType=List.class,many=@Many(select="com.ahuan.dao.IPermissionDao.findByRoleId"))
+    }
+    )
+    Role findByIdOne(String roleId);
 }

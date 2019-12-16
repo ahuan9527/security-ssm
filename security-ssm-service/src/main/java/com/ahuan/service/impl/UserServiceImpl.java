@@ -81,7 +81,7 @@ public class UserServiceImpl implements IUserService {
 
     @Override
     public void addRoleToUser(String userId, String[] ids) {
-        if (StringUtils.isEmpty(userId) || ids.length < 0){
+        if (StringUtils.isEmpty(userId) || ids.length <= 0){
             throw new BusinessException(ResultEnum.NOTNULL_ERROR);
         }
         Arrays.stream(ids).filter(p->{

@@ -37,7 +37,7 @@ public class RoleServiceImpl implements IRoleService {
     }
 
     @Override
-    public List<Role> findById(String roleId) throws Exception {
+    public Role findById(String roleId) throws Exception {
         return roleDao.findById(roleId);
     }
 
@@ -50,6 +50,11 @@ public class RoleServiceImpl implements IRoleService {
             roleDao.addPermissionToRole(roleId,p);
             return true;
         }).collect(Collectors.toList());
+    }
+
+    @Override
+    public Role findByIdOne(String roleId) {
+        return roleDao.findByIdOne(roleId);
     }
 
 }

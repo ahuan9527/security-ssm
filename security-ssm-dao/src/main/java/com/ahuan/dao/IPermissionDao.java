@@ -16,4 +16,10 @@ public interface IPermissionDao {
 
     @Insert("insert into permission(permissionName,url) values(#{permissionName},#{url})")
     void save(Permission permission) throws Exception;
+
+    @Select("SELECT * FROM PERMISSION WHERE id not in (SELECT PERMISSIONID FROM ROLE_PERMISSION WHERE ROLEID = #{roleId} )")
+    List<Permission> findOtherPermission(String roleId);
+
+    @Select("Select * from PERMISSION where id in (SELECT PERMISSIONID FROM ROLE_PERMISSION WHERE ROLEID = #{roleId})")
+    List<Permission> findByRoleId(String roleId);
 }

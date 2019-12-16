@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
          pageEncoding="UTF-8" %>
-
+<%@taglib uri="http://www.springframework.org/security/tags" prefix="security"%>
 <aside class="main-sidebar">
     <!-- sidebar: style can be found in sidebar.less -->
     <section class="sidebar">
@@ -32,10 +32,12 @@
             </a>
                 <ul class="treeview-menu">
 
+
                     <li id="system-setting"><a
                             href="${pageContext.request.contextPath}/user/findAll.do"> <i
                             class="fa fa-circle-o"></i> 用户管理
                     </a></li>
+
                     <li id="system-setting"><a
                             href="${pageContext.request.contextPath}/role/findAll.do"> <i
                             class="fa fa-circle-o"></i> 角色管理

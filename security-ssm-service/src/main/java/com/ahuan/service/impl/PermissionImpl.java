@@ -22,4 +22,9 @@ public class PermissionImpl implements IPermissionService {
     public void save(Permission permission) throws Exception {
         permissionDao.save(permission);
     }
+
+    @Override
+    public List<Permission> findOtherPermission(String roleId) {
+        return permissionDao.findOtherPermission(roleId);
+    }
 }
