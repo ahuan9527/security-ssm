@@ -1,0 +1,5 @@
+com\ahuan\dao\IRoleDao.class
+com\ahuan\dao\IUserDao.class
+com\ahuan\dao\IProductDao.class
+com\ahuan\dao\IPermissionDao.class
+com\ahuan\dao\IOrdersDao.class
