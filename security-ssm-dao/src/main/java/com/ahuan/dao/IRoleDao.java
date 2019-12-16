@@ -44,4 +44,7 @@ public interface IRoleDao {
 
     @Select("SELECT * FROM role where id = #{roleId}")
     List<Role> findById(String roleId) throws Exception;
+
+    @Insert("insert into ROLE_PERMISSION(PERMISSIONID,ROLEID) values(#{p},#{roleId})")
+    void addPermissionToRole(String roleId, String p);
 }

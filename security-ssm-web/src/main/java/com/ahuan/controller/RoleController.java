@@ -36,4 +36,10 @@ public class RoleController {
 
         return mv;
     }
+
+    @RequestMapping("/addPermissionToRole.do")
+    public String addPermissionToRole(String roleId,String [] ids) throws Exception{
+        roleService.addPermissionToRole(roleId,ids);
+        return "redirect:findAll.do";
+    }
 }

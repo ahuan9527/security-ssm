@@ -9,7 +9,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 
+import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
 
 @Service
 public class RoleServiceImpl implements IRoleService {
@@ -38,4 +40,16 @@ public class RoleServiceImpl implements IRoleService {
     public List<Role> findById(String roleId) throws Exception {
         return roleDao.findById(roleId);
     }
+
+    @Override
+    public void addPermissionToRole(String roleId, String[] ids) {
+        if (StringUtils.isEmpty(roleId) || ids.length < 0){
+            throw new BusinessException(ResultEnum.NOTNULL_ERROR);
+        }
+        Arrays.stream(ids).filter(p->{
+            roleDao.addPermissionToRole(roleId,p);
+            return true;
+        }).collect(Collectors.toList());
+    }
+
 }
