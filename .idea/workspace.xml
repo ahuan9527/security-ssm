@@ -7,65 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2696e25c-5bc6-4067-ad3e-b89b2c49cb81" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/security-ssm-web/src/main/webapp/pages/role-show.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-ssm-common/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-common/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-ssm-common/target/security-ssm-common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-common/target/security-ssm-common-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-ssm-dao/src/main/java/com/ahuan/dao/IPermissionDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-dao/src/main/java/com/ahuan/dao/IPermissionDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-ssm-dao/src/main/java/com/ahuan/dao/IRoleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-dao/src/main/java/com/ahuan/dao/IRoleDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-ssm-dao/target/classes/com/ahuan/dao/IPermissionDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-dao/target/classes/com/ahuan/dao/IPermissionDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-ssm-dao/target/classes/com/ahuan/dao/IRoleDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-dao/target/classes/com/ahuan/dao/IRoleDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-ssm-dao/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-dao/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-ssm-dao/target/security-ssm-dao-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-dao/target/security-ssm-dao-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-ssm-domain/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-domain/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-ssm-domain/target/security-ssm-domain-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-domain/target/security-ssm-domain-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-ssm-service/src/main/java/com/ahuan/service/IPermissionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-service/src/main/java/com/ahuan/service/IPermissionService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-ssm-service/src/main/java/com/ahuan/service/IRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-service/src/main/java/com/ahuan/service/IRoleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-ssm-service/src/main/java/com/ahuan/service/impl/PermissionImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-service/src/main/java/com/ahuan/service/impl/PermissionImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-ssm-service/src/main/java/com/ahuan/service/impl/RoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-service/src/main/java/com/ahuan/service/impl/RoleServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-ssm-service/src/main/java/com/ahuan/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-service/src/main/java/com/ahuan/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-ssm-service/target/classes/com/ahuan/service/IPermissionService.class" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-service/target/classes/com/ahuan/service/IPermissionService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-ssm-service/target/classes/com/ahuan/service/IRoleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-service/target/classes/com/ahuan/service/IRoleService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-ssm-service/target/classes/com/ahuan/service/impl/PermissionImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-service/target/classes/com/ahuan/service/impl/PermissionImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-ssm-service/target/classes/com/ahuan/service/impl/RoleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-service/target/classes/com/ahuan/service/impl/RoleServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-ssm-service/target/classes/com/ahuan/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-service/target/classes/com/ahuan/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-ssm-service/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-service/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-ssm-service/target/security-ssm-service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-service/target/security-ssm-service-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-ssm-utils/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-utils/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-ssm-utils/target/security-ssm-utils-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-utils/target/security-ssm-utils-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-ssm-web/src/main/java/com/ahuan/controller/RoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-web/src/main/java/com/ahuan/controller/RoleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-ssm-web/src/main/java/com/ahuan/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-web/src/main/java/com/ahuan/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/security-ssm-web/src/main/resources/spring-security.xml" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-web/src/main/resources/spring-security.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/security-ssm-web/src/main/webapp/pages/aside.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-web/src/main/webapp/pages/aside.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-ssm-web/src/main/webapp/pages/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-web/src/main/webapp/pages/main.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-ssm-web/src/main/webapp/pages/role-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-web/src/main/webapp/pages/role-list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-ssm-web/src/main/webapp/pages/user-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-web/src/main/webapp/pages/user-list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-ssm-web/target/classes/com/ahuan/controller/RoleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-web/target/classes/com/ahuan/controller/RoleController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-ssm-web/target/classes/com/ahuan/controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-ssm-web/target/security-ssm-web.war" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-web/target/security-ssm-web.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-ssm-web/target/security-ssm-web/WEB-INF/classes/com/ahuan/controller/RoleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-web/target/security-ssm-web/WEB-INF/classes/com/ahuan/controller/RoleController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-ssm-web/target/security-ssm-web/WEB-INF/lib/security-ssm-common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-web/target/security-ssm-web/WEB-INF/lib/security-ssm-common-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-ssm-web/target/security-ssm-web/WEB-INF/lib/security-ssm-dao-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-web/target/security-ssm-web/WEB-INF/lib/security-ssm-dao-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-ssm-web/target/security-ssm-web/WEB-INF/lib/security-ssm-domain-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-web/target/security-ssm-web/WEB-INF/lib/security-ssm-domain-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-ssm-web/target/security-ssm-web/WEB-INF/lib/security-ssm-service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-web/target/security-ssm-web/WEB-INF/lib/security-ssm-service-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-ssm-web/target/security-ssm-web/WEB-INF/lib/security-ssm-utils-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-web/target/security-ssm-web/WEB-INF/lib/security-ssm-utils-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-ssm-web/target/security-ssm-web/pages/role-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-web/target/security-ssm-web/pages/role-list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-ssm-web/target/tomcat/logs/access_log.2019-12-16" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-web/target/tomcat/logs/access_log.2019-12-16" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-ssm-web/target/tomcat/work/Tomcat/localhost/security-ssm-web/org/apache/jsp/login_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-web/target/tomcat/work/Tomcat/localhost/security-ssm-web/org/apache/jsp/login_jsp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-ssm-web/target/tomcat/work/Tomcat/localhost/security-ssm-web/org/apache/jsp/pages/aside_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-web/target/tomcat/work/Tomcat/localhost/security-ssm-web/org/apache/jsp/pages/aside_jsp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-ssm-web/target/tomcat/work/Tomcat/localhost/security-ssm-web/org/apache/jsp/pages/error_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-web/target/tomcat/work/Tomcat/localhost/security-ssm-web/org/apache/jsp/pages/error_jsp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-ssm-web/target/tomcat/work/Tomcat/localhost/security-ssm-web/org/apache/jsp/pages/header_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-web/target/tomcat/work/Tomcat/localhost/security-ssm-web/org/apache/jsp/pages/header_jsp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-ssm-web/target/tomcat/work/Tomcat/localhost/security-ssm-web/org/apache/jsp/pages/main_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-web/target/tomcat/work/Tomcat/localhost/security-ssm-web/org/apache/jsp/pages/main_jsp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-ssm-web/target/tomcat/work/Tomcat/localhost/security-ssm-web/org/apache/jsp/pages/permission_002dlist_jsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-ssm-web/target/tomcat/work/Tomcat/localhost/security-ssm-web/org/apache/jsp/pages/permission_002dlist_jsp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-ssm-web/target/tomcat/work/Tomcat/localhost/security-ssm-web/org/apache/jsp/pages/role_002dlist_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-web/target/tomcat/work/Tomcat/localhost/security-ssm-web/org/apache/jsp/pages/role_002dlist_jsp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-ssm-web/target/tomcat/work/Tomcat/localhost/security-ssm-web/org/apache/jsp/pages/role_002dlist_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-web/target/tomcat/work/Tomcat/localhost/security-ssm-web/org/apache/jsp/pages/role_002dlist_jsp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-ssm-web/target/tomcat/work/Tomcat/localhost/security-ssm-web/org/apache/jsp/pages/user_002dlist_jsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-ssm-web/target/tomcat/work/Tomcat/localhost/security-ssm-web/org/apache/jsp/pages/user_002dlist_jsp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-ssm-web/target/tomcat/work/Tomcat/localhost/security-ssm-web/org/apache/jsp/pages/user_002drole_002dadd_jsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-ssm-web/target/tomcat/work/Tomcat/localhost/security-ssm-web/org/apache/jsp/pages/user_002drole_002dadd_jsp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-ssm-web/target/tomcat/work/Tomcat/localhost/security-ssm-web/org/apache/jsp/pages/user_002dshow_jsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-ssm-web/target/tomcat/work/Tomcat/localhost/security-ssm-web/org/apache/jsp/pages/user_002dshow_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-ssm-web/src/main/webapp/pages/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-web/src/main/webapp/pages/header.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -106,8 +50,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/security-ssm-web/src/main/java/com/ahuan/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+            <state relative-caret-position="750">
+              <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -121,20 +68,6 @@
                 <element signature="imports" expanded="true" />
                 <element signature="e#1586#1587#0" expanded="true" />
                 <element signature="e#1636#1637#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/security-ssm-service/src/main/java/com/ahuan/service/impl/PermissionImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#732#733#0" expanded="true" />
-                <element signature="e#796#797#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -188,20 +121,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/security-ssm-web/src/main/webapp/pages/aside.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="210">
+              <caret line="37" column="63" lean-forward="true" selection-start-line="37" selection-start-column="63" selection-end-line="37" selection-end-column="63" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/security-ssm-web/src/main/webapp/pages/header.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="110" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="110" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/security-ssm-web/src/main/resources/spring-security.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="31">
-              <caret line="49" column="4" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
+            <state relative-caret-position="390">
+              <caret line="22" column="89" selection-start-line="22" selection-start-column="89" selection-end-line="22" selection-end-column="89" />
             </state>
           </provider>
         </entry>
@@ -232,7 +174,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/security-ssm-web/src/main/resources/mapper/IOrdersDao.xml" />
         <option value="$PROJECT_DIR$/security-ssm-service/src/main/java/com/ahuan/service/impl/OrdersServiceImpl.java" />
         <option value="$PROJECT_DIR$/security-ssm-web/src/main/resources/applicationContext.xml" />
         <option value="$PROJECT_DIR$/security-ssm-web/src/main/java/com/ahuan/exception/EeNumException.java" />
@@ -280,9 +221,10 @@
         <option value="$PROJECT_DIR$/security-ssm-dao/src/main/java/com/ahuan/dao/IRoleDao.java" />
         <option value="$PROJECT_DIR$/security-ssm-web/src/main/webapp/pages/main.jsp" />
         <option value="$PROJECT_DIR$/security-ssm-web/src/main/webapp/pages/user-list.jsp" />
-        <option value="$PROJECT_DIR$/security-ssm-web/src/main/webapp/pages/aside.jsp" />
         <option value="$PROJECT_DIR$/security-ssm-web/src/main/java/com/ahuan/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/security-ssm-web/src/main/webapp/pages/header.jsp" />
         <option value="$PROJECT_DIR$/security-ssm-web/src/main/resources/spring-security.xml" />
+        <option value="$PROJECT_DIR$/security-ssm-web/src/main/webapp/pages/aside.jsp" />
       </list>
     </option>
   </component>
@@ -381,17 +323,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="ahuan" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="security-ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="security-ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="security-ssm-dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ahuan" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="security-ssm" type="b2602c69:ProjectViewProjectNode" />
@@ -1009,7 +940,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="207199000" />
+    <option name="totallyTimeSpent" value="210485000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1024,7 +955,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2219973" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2219973" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -1034,7 +965,7 @@
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.329927" />
       <window_info anchor="bottom" id="Problems" order="3" weight="0.329927" />
-      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.4979757" visible="true" weight="0.5328467" />
+      <window_info active="true" anchor="bottom" id="Run" order="4" sideWeight="0.4979757" visible="true" weight="0.1620438" />
       <window_info anchor="bottom" id="Debug" order="5" sideWeight="0.49865046" weight="0.2919708" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
@@ -1064,23 +995,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/security-ssm-common/src/main/java/com/ahuan/exception/ResultEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/security-ssm-web/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-966">
-          <caret line="21" column="60" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="60" />
-          <folding>
-            <element signature="e#1359#1372#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/security-ssm-web/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1350">
@@ -1419,13 +1333,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/security-ssm-web/src/main/webapp/pages/aside.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://E:/mvn_repository/org/springframework/security/spring-security-config/5.0.0.RELEASE/spring-security-config-5.0.0.RELEASE.jar!/org/springframework/security/config/spring-security-5.0.xsd">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -1443,17 +1350,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://E:/mvn_repository/org/springframework/security/spring-security-core/5.0.0.RELEASE/spring-security-core-5.0.0.RELEASE.jar!/org/springframework/security/access/intercept/AbstractSecurityInterceptor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4">
+          <caret line="120" selection-start-line="120" selection-end-line="120" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/security-ssm-web/src/main/java/com/ahuan/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+        <state relative-caret-position="750">
+          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/security-ssm-web/src/main/resources/spring-security.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="49" column="4" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
+        <state relative-caret-position="390">
+          <caret line="22" column="89" selection-start-line="22" selection-start-column="89" selection-end-line="22" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security-ssm-web/src/main/webapp/pages/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="110" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security-ssm-web/src/main/webapp/pages/aside.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="37" column="63" lean-forward="true" selection-start-line="37" selection-start-column="63" selection-end-line="37" selection-end-column="63" />
         </state>
       </provider>
     </entry>
