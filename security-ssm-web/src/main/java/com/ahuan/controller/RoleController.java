@@ -5,6 +5,7 @@ import com.ahuan.domain.Role;
 import com.ahuan.service.IPermissionService;
 import com.ahuan.service.IRoleService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.access.annotation.Secured;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -22,6 +23,7 @@ public class RoleController {
     @Autowired
     private IPermissionService iPermissionService;
     @RequestMapping("/findAll.do")
+    @Secured("ROLE_ADMIN")
     public ModelAndView findAll() throws Exception {
         ModelAndView mad = new ModelAndView();
         mad.setViewName("role-list");

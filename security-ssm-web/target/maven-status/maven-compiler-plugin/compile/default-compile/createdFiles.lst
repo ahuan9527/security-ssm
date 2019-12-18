@@ -1,8 +1,0 @@
-com\ahuan\controller\ProductController.class
-com\ahuan\exception\GlobalControllerAdvice.class
-com\ahuan\controller\ExcepController.class
-com\ahuan\controller\permissionController.class
-com\ahuan\controller\OrdersController.class
-com\ahuan\controller\RoleController.class
-com\ahuan\exception\AccessDeniedServletHandler.class
-com\ahuan\controller\UserController.class

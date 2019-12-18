@@ -39,7 +39,7 @@ public class ProductController {
     }
 
     @RequestMapping("/pageFindAll.do")
-    public ModelAndView findPageHelper(@RequestParam(value = "pageNum",required = false) int pageNum) throws Exception {
+    public ModelAndView findPageHelper(@RequestParam(value = "pageNum",required = false) Integer pageNum) throws Exception {
         if ( pageNum == 0){
             pageNum =1;
         }

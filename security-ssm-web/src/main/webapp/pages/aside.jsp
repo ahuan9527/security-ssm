@@ -7,7 +7,7 @@
         <!-- Sidebar user panel -->
         <div class="user-panel">
             <div class="pull-left image">
-                <img src="${pageContext.request.contextPath}/img/user2-160x160.jpg"
+                <img src="${pageContext.request.contextPath}/img/66-1ZG1142931G7.jpg"
                      class="img-circle" alt="User Image">
             </div>
             <div class="pull-left info">
@@ -41,16 +41,18 @@
                             class="fa fa-circle-o"></i> 用户管理
                     </a></li>
                     </security:authorize>
+
                     <li id="system-setting"><a
                             href="${pageContext.request.contextPath}/role/findAll.do"> <i
                             class="fa fa-circle-o"></i> 角色管理
                     </a></li>
+
                     <li id="system-setting"><a
                             href="${pageContext.request.contextPath}/permission/findAll.do">
                         <i class="fa fa-circle-o"></i> 资源权限管理
                     </a></li>
                     <li id="system-setting"><a
-                            href="${pageContext.request.contextPath}/sysLog/findAll.do"> <i
+                            href="${pageContext.request.contextPath}/syslog/findAll.do"> <i
                             class="fa fa-circle-o"></i> 访问日志
                     </a></li>
                 </ul>

@@ -26,7 +26,6 @@ public class GlobalControllerAdvice {
      */
     @ExceptionHandler(Exception.class)
     public ModelAndView exception(HttpServletRequest request,Exception e){
-        e.printStackTrace();
         ModelAndView modelAndView = new ModelAndView();
         System.out.println(e.getMessage());
         modelAndView.setViewName("error");

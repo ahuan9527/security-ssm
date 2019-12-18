@@ -7,9 +7,72 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2696e25c-5bc6-4067-ad3e-b89b2c49cb81" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/security-ssm-dao/src/main/java/com/ahuan/dao/ISysLogDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security-ssm-domain/src/main/java/com/ahuan/domain/SysLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security-ssm-service/src/main/java/com/ahuan/service/ISysLogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security-ssm-service/src/main/java/com/ahuan/service/impl/SysLogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security-ssm-web/src/main/java/com/ahuan/controller/LogAop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security-ssm-web/src/main/java/com/ahuan/controller/SysLogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security-ssm-web/src/main/webapp/img/1020807.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security-ssm-web/src/main/webapp/img/1042578.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security-ssm-web/src/main/webapp/img/66-1ZG1142931G7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security-ssm-web/src/main/webapp/pages/syslog-list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-ssm-common/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-common/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-ssm-common/target/security-ssm-common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-common/target/security-ssm-common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-ssm-dao/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-dao/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-ssm-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-ssm-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-ssm-dao/target/security-ssm-dao-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-dao/target/security-ssm-dao-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-ssm-domain/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-domain/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-ssm-domain/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-domain/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-ssm-domain/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-domain/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-ssm-domain/target/security-ssm-domain-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-domain/target/security-ssm-domain-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-ssm-service/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-service/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-ssm-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-ssm-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-ssm-service/target/security-ssm-service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-service/target/security-ssm-service-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-ssm-utils/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-utils/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-ssm-utils/target/security-ssm-utils-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-utils/target/security-ssm-utils-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-ssm-web/src/main/java/com/ahuan/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-web/src/main/java/com/ahuan/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-ssm-web/src/main/java/com/ahuan/controller/RoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-web/src/main/java/com/ahuan/controller/RoleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-ssm-web/src/main/java/com/ahuan/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-web/src/main/java/com/ahuan/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-ssm-web/src/main/java/com/ahuan/exception/GlobalControllerAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-web/src/main/java/com/ahuan/exception/GlobalControllerAdvice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/security-ssm-web/src/main/resources/spring-security.xml" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-web/src/main/resources/spring-security.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/security-ssm-web/src/main/webapp/pages/aside.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-web/src/main/webapp/pages/aside.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/security-ssm-web/src/main/webapp/pages/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-web/src/main/webapp/pages/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-ssm-web/src/main/webapp/pages/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-web/src/main/webapp/pages/main.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-ssm-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-ssm-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-ssm-web/target/security-ssm-web.war" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-web/target/security-ssm-web.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-ssm-web/target/security-ssm-web/WEB-INF/classes/com/ahuan/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-web/target/security-ssm-web/WEB-INF/classes/com/ahuan/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-ssm-web/target/security-ssm-web/WEB-INF/classes/spring-security.xml" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-web/target/security-ssm-web/WEB-INF/classes/spring-security.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-ssm-web/target/security-ssm-web/WEB-INF/lib/security-ssm-common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-web/target/security-ssm-web/WEB-INF/lib/security-ssm-common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-ssm-web/target/security-ssm-web/WEB-INF/lib/security-ssm-dao-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-web/target/security-ssm-web/WEB-INF/lib/security-ssm-dao-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-ssm-web/target/security-ssm-web/WEB-INF/lib/security-ssm-domain-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-web/target/security-ssm-web/WEB-INF/lib/security-ssm-domain-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-ssm-web/target/security-ssm-web/WEB-INF/lib/security-ssm-service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-web/target/security-ssm-web/WEB-INF/lib/security-ssm-service-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-ssm-web/target/security-ssm-web/WEB-INF/lib/security-ssm-utils-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-web/target/security-ssm-web/WEB-INF/lib/security-ssm-utils-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-ssm-web/target/security-ssm-web/pages/aside.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-web/target/security-ssm-web/pages/aside.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-ssm-web/target/security-ssm-web/pages/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-web/target/security-ssm-web/pages/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-ssm-web/target/security-ssm-web/pages/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-web/target/security-ssm-web/pages/main.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-ssm-web/target/security-ssm-web/pages/user-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-web/target/security-ssm-web/pages/user-list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-ssm-web/target/tomcat/logs/access_log.2019-12-16" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-ssm-web/target/tomcat/work/Tomcat/localhost/security-ssm-web/org/apache/jsp/login_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-web/target/tomcat/work/Tomcat/localhost/security-ssm-web/org/apache/jsp/login_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-ssm-web/target/tomcat/work/Tomcat/localhost/security-ssm-web/org/apache/jsp/pages/aside_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-web/target/tomcat/work/Tomcat/localhost/security-ssm-web/org/apache/jsp/pages/aside_jsp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-ssm-web/target/tomcat/work/Tomcat/localhost/security-ssm-web/org/apache/jsp/pages/aside_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-web/target/tomcat/work/Tomcat/localhost/security-ssm-web/org/apache/jsp/pages/aside_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-ssm-web/target/tomcat/work/Tomcat/localhost/security-ssm-web/org/apache/jsp/pages/error_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-web/target/tomcat/work/Tomcat/localhost/security-ssm-web/org/apache/jsp/pages/error_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-ssm-web/target/tomcat/work/Tomcat/localhost/security-ssm-web/org/apache/jsp/pages/header_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-web/target/tomcat/work/Tomcat/localhost/security-ssm-web/org/apache/jsp/pages/header_jsp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-ssm-web/target/tomcat/work/Tomcat/localhost/security-ssm-web/org/apache/jsp/pages/header_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-web/target/tomcat/work/Tomcat/localhost/security-ssm-web/org/apache/jsp/pages/header_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-ssm-web/target/tomcat/work/Tomcat/localhost/security-ssm-web/org/apache/jsp/pages/main_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-web/target/tomcat/work/Tomcat/localhost/security-ssm-web/org/apache/jsp/pages/main_jsp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-ssm-web/target/tomcat/work/Tomcat/localhost/security-ssm-web/org/apache/jsp/pages/main_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/security-ssm-web/target/tomcat/work/Tomcat/localhost/security-ssm-web/org/apache/jsp/pages/main_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-ssm-web/target/tomcat/work/Tomcat/localhost/security-ssm-web/org/apache/jsp/pages/permission_002dlist_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-ssm-web/target/tomcat/work/Tomcat/localhost/security-ssm-web/org/apache/jsp/pages/permission_002dlist_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-ssm-web/target/tomcat/work/Tomcat/localhost/security-ssm-web/org/apache/jsp/pages/role_002dlist_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-ssm-web/target/tomcat/work/Tomcat/localhost/security-ssm-web/org/apache/jsp/pages/role_002dlist_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-ssm-web/target/tomcat/work/Tomcat/localhost/security-ssm-web/org/apache/jsp/pages/user_002dlist_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-ssm-web/target/tomcat/work/Tomcat/localhost/security-ssm-web/org/apache/jsp/pages/user_002dlist_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-ssm-web/target/tomcat/work/Tomcat/localhost/security-ssm-web/org/apache/jsp/pages/user_002drole_002dadd_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-ssm-web/target/tomcat/work/Tomcat/localhost/security-ssm-web/org/apache/jsp/pages/user_002drole_002dadd_jsp.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -50,91 +113,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/security-ssm-web/src/main/java/com/ahuan/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="750">
-              <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="26" />
+            <state relative-caret-position="199">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/security-ssm-service/src/main/java/com/ahuan/service/impl/RoleServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="49" column="36" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1586#1587#0" expanded="true" />
-                <element signature="e#1636#1637#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/security-ssm-dao/src/main/java/com/ahuan/dao/IRoleDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="54" column="43" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="163" column="47" selection-start-line="163" selection-start-column="40" selection-end-line="163" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/security-ssm-web/src/main/webapp/pages/main.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" selection-end-column="80" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/security-ssm-web/src/main/java/com/ahuan/controller/RoleController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="38" column="78" selection-start-line="38" selection-start-column="78" selection-end-line="38" selection-end-column="78" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/security-ssm-web/src/main/webapp/pages/user-list.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="69" column="53" lean-forward="true" selection-start-line="69" selection-start-column="53" selection-end-line="69" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/security-ssm-web/src/main/webapp/pages/aside.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="37" column="63" lean-forward="true" selection-start-line="37" selection-start-column="63" selection-end-line="37" selection-end-column="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/security-ssm-web/src/main/webapp/pages/header.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="110" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="110" />
             </state>
           </provider>
         </entry>
@@ -142,8 +125,89 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/security-ssm-web/src/main/resources/spring-security.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="22" column="89" selection-start-line="22" selection-start-column="89" selection-end-line="22" selection-end-column="89" />
+            <state relative-caret-position="360">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/security-ssm-web/src/main/java/com/ahuan/controller/LogAop.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="43" column="25" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/lang/Class.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="1780" column="46" selection-start-line="1780" selection-start-column="41" selection-end-line="1780" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/security-ssm-web/src/main/java/com/ahuan/controller/ExcepController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="7" column="11" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/security-ssm-web/src/main/java/com/ahuan/exception/GlobalControllerAdvice.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="27" column="74" selection-start-line="27" selection-start-column="74" selection-end-line="27" selection-end-column="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/security-ssm-web/src/main/java/com/ahuan/controller/RoleController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/security-ssm-service/src/main/java/com/ahuan/service/impl/ProductServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="471">
+              <caret line="45" column="45" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/security-ssm-web/src/main/java/com/ahuan/controller/ProductController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-90">
+              <caret line="41" column="96" selection-start-line="41" selection-start-column="96" selection-end-line="41" selection-end-column="96" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/security-ssm-web/src/main/webapp/pages/syslog-list.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-360">
+              <caret line="3" column="63" selection-start-line="3" selection-start-column="63" selection-end-line="3" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -157,8 +221,8 @@
         <option value="spring-beans.schema" />
         <option value="MybatisMapper" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -166,6 +230,7 @@
     <findStrings>
       <find>操作</find>
       <find>system-setting</find>
+      <find>admin-index</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -174,14 +239,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/security-ssm-service/src/main/java/com/ahuan/service/impl/OrdersServiceImpl.java" />
-        <option value="$PROJECT_DIR$/security-ssm-web/src/main/resources/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/security-ssm-web/src/main/java/com/ahuan/exception/EeNumException.java" />
-        <option value="$PROJECT_DIR$/security-ssm-web/src/main/webapp/pages/orders-show.jsp" />
-        <option value="$PROJECT_DIR$/security-ssm-web/src/main/webapp/pages/orders-list.jsp" />
-        <option value="$PROJECT_DIR$/security-ssm-web/src/main/java/com/ahuan/controller/OrdersController.java" />
-        <option value="$PROJECT_DIR$/security-ssm-domain/src/main/java/com/ahuan/domain/Permission.java" />
-        <option value="$PROJECT_DIR$/security-ssm-domain/src/main/java/com/ahuan/domain/Role.java" />
         <option value="$PROJECT_DIR$/security-ssm-domain/src/main/java/com/ahuan/impl/UserDetails.java" />
         <option value="$PROJECT_DIR$/security-ssm-domain/src/main/java/com/ahuan/domain/User.java" />
         <option value="$PROJECT_DIR$/security-ssm-service/src/main/java/com/ahuan/service/impl/UserDetailsService.java" />
@@ -197,7 +254,6 @@
         <option value="$PROJECT_DIR$/security-ssm-service/pom.xml" />
         <option value="$PROJECT_DIR$/security-ssm-web/src/main/java/com/ahuan/controller/ExcepController.java" />
         <option value="$PROJECT_DIR$/security-ssm-web/src/main/java/com/ahuan/exception/AccessDeniedServletHandler.java" />
-        <option value="$PROJECT_DIR$/security-ssm-web/src/main/java/com/ahuan/exception/GlobalControllerAdvice.java" />
         <option value="$PROJECT_DIR$/security-ssm-web/src/main/webapp/pages/error.jsp" />
         <option value="$PROJECT_DIR$/security-ssm-common/src/main/java/com/ahuan/exception/ResultEnum.java" />
         <option value="$PROJECT_DIR$/security-ssm-web/src/main/resources/log4j.properties" />
@@ -216,15 +272,24 @@
         <option value="$PROJECT_DIR$/security-ssm-service/src/main/java/com/ahuan/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/security-ssm-web/src/main/webapp/pages/role-list.jsp" />
         <option value="$PROJECT_DIR$/security-ssm-service/src/main/java/com/ahuan/service/IRoleService.java" />
-        <option value="$PROJECT_DIR$/security-ssm-web/src/main/java/com/ahuan/controller/RoleController.java" />
         <option value="$PROJECT_DIR$/security-ssm-service/src/main/java/com/ahuan/service/impl/RoleServiceImpl.java" />
         <option value="$PROJECT_DIR$/security-ssm-dao/src/main/java/com/ahuan/dao/IRoleDao.java" />
-        <option value="$PROJECT_DIR$/security-ssm-web/src/main/webapp/pages/main.jsp" />
         <option value="$PROJECT_DIR$/security-ssm-web/src/main/webapp/pages/user-list.jsp" />
-        <option value="$PROJECT_DIR$/security-ssm-web/src/main/java/com/ahuan/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/security-ssm-web/src/main/webapp/pages/main.jsp" />
         <option value="$PROJECT_DIR$/security-ssm-web/src/main/webapp/pages/header.jsp" />
-        <option value="$PROJECT_DIR$/security-ssm-web/src/main/resources/spring-security.xml" />
+        <option value="$PROJECT_DIR$/security-ssm-service/src/main/java/com/ahuan/service/ISysLogService.java" />
+        <option value="$PROJECT_DIR$/security-ssm-web/src/main/java/com/ahuan/controller/SysLogController.java" />
+        <option value="$PROJECT_DIR$/security-ssm-service/src/main/java/com/ahuan/service/impl/SysLogService.java" />
         <option value="$PROJECT_DIR$/security-ssm-web/src/main/webapp/pages/aside.jsp" />
+        <option value="$PROJECT_DIR$/security-ssm-domain/src/main/java/com/ahuan/domain/SysLog.java" />
+        <option value="$PROJECT_DIR$/security-ssm-dao/src/main/java/com/ahuan/dao/ISysLogDao.java" />
+        <option value="$PROJECT_DIR$/security-ssm-web/src/main/webapp/pages/syslog-list.jsp" />
+        <option value="$PROJECT_DIR$/security-ssm-web/src/main/java/com/ahuan/exception/GlobalControllerAdvice.java" />
+        <option value="$PROJECT_DIR$/security-ssm-web/src/main/java/com/ahuan/controller/LogAop.java" />
+        <option value="$PROJECT_DIR$/security-ssm-web/src/main/java/com/ahuan/controller/ProductController.java" />
+        <option value="$PROJECT_DIR$/security-ssm-web/src/main/resources/spring-security.xml" />
+        <option value="$PROJECT_DIR$/security-ssm-web/src/main/java/com/ahuan/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/security-ssm-web/src/main/java/com/ahuan/controller/RoleController.java" />
       </list>
     </option>
   </component>
@@ -266,7 +331,9 @@
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -323,6 +390,17 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="ahuan" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="security-ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="security-ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="security-ssm-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ahuan" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="security-ssm" type="b2602c69:ProjectViewProjectNode" />
@@ -510,6 +588,17 @@
               <item name="security-ssm-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ahuan" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="security-ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="security-ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="security-ssm-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -542,7 +631,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/security-ssm-web/src/main/webapp/pages" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/security-ssm-web/src/main/webapp/img" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Facets" />
@@ -565,11 +654,11 @@
       <recent name="com.ahuan.exception" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\3.StudyProject\security-ssm\security-ssm-web\src\main\webapp\img" />
       <recent name="F:\3.StudyProject\security-ssm\security-ssm-web\src\main\webapp\pages" />
       <recent name="F:\3.StudyProject\security-ssm\security-ssm-web\src\main\webapp" />
       <recent name="F:\3.StudyProject\security-ssm\security-ssm-web\src\main\resources\mapper" />
       <recent name="F:\3.StudyProject\security-ssm\security-ssm-dao\src\main\resources" />
-      <recent name="F:\3.StudyProject\security-ssm\security-ssm-web\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -617,7 +706,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="security-ssm-domain [clean]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+    <configuration name="security-ssm-dao [clean]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
         <option name="myRunnerSettings" />
@@ -636,7 +725,7 @@
               <map />
             </option>
             <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$/security-ssm-domain" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/security-ssm-dao" />
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
@@ -867,17 +956,17 @@
       <item itemvalue="JUnit.BcryptPwdTest.test1" />
       <item itemvalue="Maven.security-ssm-web [tomcat7:run]" />
       <item itemvalue="Maven.security-ssm-web [compile]" />
-      <item itemvalue="Maven.security-ssm-domain [clean]" />
       <item itemvalue="Maven.security-ssm-domain [install]" />
       <item itemvalue="Tomcat Server.Tomcat 8.5.34" />
+      <item itemvalue="Maven.security-ssm-dao [clean]" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Maven.security-ssm-dao [clean]" />
         <item itemvalue="JUnit.BcryptPwdTest.test1" />
         <item itemvalue="JUnit.BcryptPwdTest.test" />
         <item itemvalue="Maven.security-ssm-web [compile]" />
         <item itemvalue="Maven.security-ssm-domain [install]" />
-        <item itemvalue="Maven.security-ssm-domain [clean]" />
       </list>
     </recent_temporary>
   </component>
@@ -940,7 +1029,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="210485000" />
+    <option name="totallyTimeSpent" value="225266000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -955,7 +1044,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2219973" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2219973" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -965,8 +1054,8 @@
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.329927" />
       <window_info anchor="bottom" id="Problems" order="3" weight="0.329927" />
-      <window_info active="true" anchor="bottom" id="Run" order="4" sideWeight="0.4979757" visible="true" weight="0.1620438" />
-      <window_info anchor="bottom" id="Debug" order="5" sideWeight="0.49865046" weight="0.2919708" />
+      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.4979757" visible="true" weight="0.10072993" />
+      <window_info anchor="bottom" id="Debug" order="5" sideWeight="0.49865046" weight="0.47737226" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="8" weight="0.329927" />
@@ -990,205 +1079,23 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/security-ssm-web/src/main/java/com/ahuan/controller/LogAop.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/security-ssm-web/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="63" column="22" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/security-ssm-web/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="1" column="19" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/security-ssm-web/src/main/java/com/ahuan/exception/AccessDeniedServletHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/security-ssm-web/src/main/java/com/ahuan/exception/GlobalControllerAdvice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/security-ssm-web/src/main/java/com/ahuan/controller/ExcepController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/security-ssm-dao/src/main/java/com/ahuan/dao/IProductDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/util/stream/Collectors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="103" column="19" selection-start-line="103" selection-start-column="19" selection-end-line="103" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/security-ssm-web/src/test/test/com/ahuan/test/BcryptPwdTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="31" column="23" lean-forward="true" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/security-ssm-web/src/main/resources/mapper/IUserDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/security-ssm-web/src/main/resources/mapper/IOrdersDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-883" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/security-ssm-dao/src/main/java/com/ahuan/dao/IOrdersDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/security-ssm-domain/src/main/java/com/ahuan/domain/UserInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="14" column="28" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/security-ssm-domain/src/main/java/com/ahuan/domain/RoleController.java" />
-    <entry file="file://$PROJECT_DIR$/security-ssm-domain/src/main/java/com/ahuan/domain/Pagination.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/security-ssm-web/src/main/java/com/ahuan/controller/OrdersController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/security-ssm-web/src/main/webapp/pages/role-add.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="92" column="70" selection-start-line="92" selection-start-column="66" selection-end-line="92" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/security-ssm-web/src/main/java/com/ahuan/controller/ProductController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="37" column="24" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/security-ssm-web/src/main/webapp/pages/permission-add.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/security-ssm-service/src/main/java/com/ahuan/service/impl/OrdersServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/security-ssm-service/src/main/java/com/ahuan/service/impl/ProductServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/security-ssm-service/src/main/java/com/ahuan/service/IUserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/security-ssm-common/src/main/java/com/ahuan/exception/BusinessException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/security-ssm-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13">
-          <caret line="54" column="35" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/security-ssm-web/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/security-ssm-web/src/main/webapp/pages/permission-list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="161" column="39" selection-start-line="161" selection-start-column="39" selection-end-line="161" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/security-ssm-web/src/main/java/com/ahuan/controller/permissionController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/security-ssm-dao/src/main/java/com/ahuan/dao/IUserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="42" column="80" selection-start-line="42" selection-start-column="3" selection-end-line="42" selection-end-column="80" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/security-ssm-web/src/main/webapp/pages/user-show.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="624">
@@ -1217,13 +1124,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="11" column="28" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/security-ssm-domain/src/main/java/com/ahuan/domain/Role.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="11" column="40" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -1319,34 +1219,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/security-ssm-web/src/main/webapp/pages/user-list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="69" column="53" lean-forward="true" selection-start-line="69" selection-start-column="53" selection-end-line="69" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/security-ssm-web/src/main/webapp/pages/main.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://E:/mvn_repository/org/springframework/security/spring-security-config/5.0.0.RELEASE/spring-security-config-5.0.0.RELEASE.jar!/org/springframework/security/config/spring-security-5.0.xsd">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="708" column="6" selection-start-line="708" selection-start-column="6" selection-end-line="708" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/security-ssm-web/src/main/java/com/ahuan/controller/RoleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="38" column="78" selection-start-line="38" selection-start-column="78" selection-end-line="38" selection-end-column="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1357,34 +1233,332 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/security-ssm-web/src/main/java/com/ahuan/controller/UserController.java">
+    <entry file="file://$PROJECT_DIR$/security-ssm-web/src/main/webapp/pages/user-list.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="26" />
+        <state relative-caret-position="-2430">
+          <caret line="69" column="53" selection-start-line="69" selection-start-column="53" selection-end-line="69" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security-ssm-web/src/main/webapp/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security-ssm-web/src/main/webapp/pages/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="267" column="30" selection-start-line="267" selection-start-column="30" selection-end-line="267" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security-ssm-web/src/main/webapp/pages/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="164" column="52" selection-start-line="164" selection-start-column="45" selection-end-line="164" selection-end-column="52" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#li#0;n#ul#0;n#li#1;n#ul#0;n#li#1;n#ul#0;n#div#0;n#nav#0;n#header#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#li#1;n#ul#0;n#li#1;n#ul#0;n#li#1;n#ul#0;n#div#0;n#nav#0;n#header#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#li#2;n#ul#0;n#li#1;n#ul#0;n#li#1;n#ul#0;n#div#0;n#nav#0;n#header#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#li#3;n#ul#0;n#li#1;n#ul#0;n#li#1;n#ul#0;n#div#0;n#nav#0;n#header#0;n#!!top" expanded="true" />
+            <element signature="n#ul#0;n#li#0;n#ul#0;n#div#0;n#nav#0;n#header#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/mvn_repository/org/aspectj/aspectjweaver/1.6.8/aspectjweaver-1.6.8.jar!/org/aspectj/lang/JoinPoint.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-810">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security-ssm-web/src/main/webapp/pages/aside.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="54" column="75" selection-start-line="54" selection-start-column="75" selection-end-line="54" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security-ssm-web/src/main/java/com/ahuan/controller/SysLogController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="jar://E:/mvn_repository/org/springframework/spring-aop/5.0.2.RELEASE/spring-aop-5.0.2.RELEASE.jar!/org/springframework/aop/aspectj/MethodInvocationProceedingJoinPoint.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+          <folding>
+            <element signature="e#3406#3407#0" expanded="true" />
+            <element signature="e#3433#3434#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/mvn_repository/org/springframework/spring-aop/5.0.2.RELEASE/spring-aop-5.0.2.RELEASE.jar!/org/springframework/aop/support/AbstractExpressionPointcut.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <element signature="e#1277#1278#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/mvn_repository/org/springframework/spring-aop/5.0.2.RELEASE/spring-aop-5.0.2.RELEASE.jar!/org/springframework/aop/aspectj/AspectJAfterAdvice.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/mvn_repository/org/springframework/spring-aop/5.0.2.RELEASE/spring-aop-5.0.2.RELEASE.jar!/org/springframework/aop/interceptor/ExposeInvocationInterceptor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/mvn_repository/org/springframework/spring-aop/5.0.2.RELEASE/spring-aop-5.0.2.RELEASE.jar!/org/springframework/aop/framework/ReflectiveMethodInvocation.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="125" selection-start-line="125" selection-end-line="125" />
+          <folding>
+            <element signature="e#1922#1923#0" expanded="true" />
+            <element signature="e#1956#1957#0" expanded="true" />
+            <element signature="e#2000#2001#0" expanded="true" />
+            <element signature="e#2037#2038#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/mvn_repository/org/springframework/spring-core/5.0.2.RELEASE/spring-core-5.0.2.RELEASE.jar!/org/springframework/util/CollectionUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="e#893#894#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security-ssm-domain/src/main/java/com/ahuan/domain/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="11" column="40" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security-ssm-domain/src/main/java/com/ahuan/domain/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security-ssm-service/src/main/java/com/ahuan/service/ISysLogService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security-ssm-service/src/main/java/com/ahuan/service/impl/SysLogService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#531#532#0" expanded="true" />
+            <element signature="e#569#570#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security-ssm-dao/src/main/java/com/ahuan/dao/ISysLogDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="16" column="72" selection-start-line="16" selection-start-column="72" selection-end-line="16" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security-ssm-domain/src/main/java/com/ahuan/domain/SysLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+            <element signature="e#435#436#0" expanded="true" />
+            <element signature="e#469#470#0" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+            <element signature="e#591#592#0" expanded="true" />
+            <element signature="e#630#631#0" expanded="true" />
+            <element signature="e#665#666#0" expanded="true" />
+            <element signature="e#721#722#0" expanded="true" />
+            <element signature="e#769#770#0" expanded="true" />
+            <element signature="e#804#805#0" expanded="true" />
+            <element signature="e#835#836#0" expanded="true" />
+            <element signature="e#883#884#0" expanded="true" />
+            <element signature="e#923#924#0" expanded="true" />
+            <element signature="e#952#953#0" expanded="true" />
+            <element signature="e#977#978#0" expanded="true" />
+            <element signature="e#1013#1014#0" expanded="true" />
+            <element signature="e#1041#1042#0" expanded="true" />
+            <element signature="e#1071#1072#0" expanded="true" />
+            <element signature="e#1097#1098#0" expanded="true" />
+            <element signature="e#1135#1136#0" expanded="true" />
+            <element signature="e#1165#1166#0" expanded="true" />
+            <element signature="e#1203#1204#0" expanded="true" />
+            <element signature="e#1239#1240#0" expanded="true" />
+            <element signature="e#1295#1296#0" expanded="true" />
+            <element signature="e#1345#1346#0" expanded="true" />
+            <element signature="e#1378#1379#0" expanded="true" />
+            <element signature="e#1407#1408#0" expanded="true" />
+            <element signature="e#1451#1452#0" expanded="true" />
+            <element signature="e#1487#1488#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security-ssm-web/src/main/webapp/pages/product-list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6990">
+          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security-ssm-web/src/main/webapp/pages/product-list1.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="219" column="62" selection-start-line="219" selection-start-column="46" selection-end-line="219" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security-ssm-web/src/main/webapp/pages/orders-list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security-ssm-web/src/main/webapp/pages/syslog-list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-360">
+          <caret line="3" column="63" selection-start-line="3" selection-start-column="63" selection-end-line="3" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/mvn_repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar!/javax/servlet/ServletRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1079">
+          <caret line="49" column="11" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security-ssm-web/src/main/java/com/ahuan/controller/ExcepController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/mvn_repository/org/springframework/spring-aop/5.0.2.RELEASE/spring-aop-5.0.2.RELEASE.jar!/org/springframework/aop/aspectj/AbstractAspectJAdvice.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="429" selection-start-line="429" selection-end-line="429" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security-ssm-web/src/main/java/com/ahuan/exception/GlobalControllerAdvice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="27" column="74" selection-start-line="27" selection-start-column="74" selection-end-line="27" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="1780" column="46" selection-start-line="1780" selection-start-column="41" selection-end-line="1780" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="62" column="33" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security-ssm-service/src/main/java/com/ahuan/service/impl/ProductServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="45" column="45" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security-ssm-web/src/main/java/com/ahuan/controller/LogAop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="43" column="25" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security-ssm-web/src/main/java/com/ahuan/controller/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90">
+          <caret line="41" column="96" selection-start-line="41" selection-start-column="96" selection-end-line="41" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/security-ssm-web/src/main/resources/spring-security.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="22" column="89" selection-start-line="22" selection-start-column="89" selection-end-line="22" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/security-ssm-web/src/main/webapp/pages/header.jsp">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="24" column="110" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="110" />
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/security-ssm-web/src/main/webapp/pages/aside.jsp">
+    <entry file="file://$PROJECT_DIR$/security-ssm-web/src/main/java/com/ahuan/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="37" column="63" lean-forward="true" selection-start-line="37" selection-start-column="63" selection-end-line="37" selection-end-column="63" />
+        <state relative-caret-position="199">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security-ssm-web/src/main/java/com/ahuan/controller/RoleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
