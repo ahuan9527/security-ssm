@@ -36,7 +36,7 @@ public interface IRoleDao {
     @Select("select * from role")
     List<Role> findAll() throws Exception;
 
-    @Insert("insert into role(roleName,roleDesc) values(#{roleName},#{roleDesc})")
+    @Insert("insert into role(id,roleName,roleDesc) values(#{id},#{roleName},#{roleDesc})")
     void save(Role role);
 
     @Select("SELECT * FROM role WHERE  id not in( select roleId from users_role where userId=#{id})")

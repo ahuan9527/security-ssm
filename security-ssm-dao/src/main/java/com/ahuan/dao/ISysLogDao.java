@@ -14,6 +14,6 @@ public interface ISysLogDao {
     @Select("select * from syslog")
     List<SysLog> findAll();
 
-    @Insert("INSERT INTO SYSLOG(visitTime,username,ip, url,executionTime,method) values(#{sysLog.visitTime},#{sysLog.username},#{sysLog.ip},#{sysLog.url},#{sysLog.executionTime},#{sysLog.method})")
+    @Insert("INSERT INTO SYSLOG(id,visitTime,username,ip, url,executionTime,method) values(#{sysLog.id},#{sysLog.visitTime},#{sysLog.username},#{sysLog.ip},#{sysLog.url},#{sysLog.executionTime},#{sysLog.method})")
     void save(@Param("sysLog") SysLog sysLog);
 }

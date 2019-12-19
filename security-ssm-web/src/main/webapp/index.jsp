@@ -2,6 +2,6 @@
          pageEncoding="UTF-8"%>
 <html>
 <body>
-<jsp:forward page="/pages/main.jsp"></jsp:forward>
+<jsp:forward page="${pageContext.request.contextPath}/pages/main.jsp"></jsp:forward>
 </body>
 </html>

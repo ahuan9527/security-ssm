@@ -15,20 +15,9 @@ public class BcryptPwdTest {
     }
     @Test
     public void test(){
-        String user = encodePassword("user");
+        String user = encodePassword("admin");
         System.out.println(user);
     }
 
-    @Test
-    public void test1(){
-        List<String> list = new ArrayList<>();
-        list.add("1");
-        list.add("1");
-        list.add("1");
-        list.add("1");
-        list.stream().filter(s -> {
-            System.out.println(s);
-           return true;
-        }).collect(Collectors.joining());
-    }
+
 }

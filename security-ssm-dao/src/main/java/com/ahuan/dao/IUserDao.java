@@ -36,7 +36,7 @@ public interface IUserDao {
     @Select("select * from users")
     List<UserInfo>  findAll() throws Exception;
 
-    @Insert("insert into users(email,username,password,phoneNum,status)values(#{email},#{username},#{password},#{phoneNum},#{status})")
+    @Insert("insert into users(id,email,username,password,phoneNum,status)values(#{id},#{email},#{username},#{password},#{phoneNum},#{status})")
     void  save(UserInfo user) throws Exception;
 
 

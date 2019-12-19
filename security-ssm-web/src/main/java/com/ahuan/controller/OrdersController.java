@@ -26,11 +26,6 @@ public class OrdersController {
         return modelAndView;
     };
 
-    @RequestMapping("/err.do")
-    public ModelAndView errTest() throws  Exception{
-        int i = 1/0;
-        return new ModelAndView();
-    }
 
     @RequestMapping("/findById.do")
     public ModelAndView findById(@RequestParam(value = "id",required = false) String id){

@@ -8,7 +8,7 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class ExcepController {
 
-    @RequestMapping("/403.do")
+    @RequestMapping("/err.do")
     public ModelAndView err(){
         ModelAndView modelAndView = new ModelAndView();
         modelAndView.setViewName("error");

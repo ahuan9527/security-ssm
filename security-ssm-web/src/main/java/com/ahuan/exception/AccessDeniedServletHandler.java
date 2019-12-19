@@ -14,6 +14,6 @@ import java.io.IOException;
 public class AccessDeniedServletHandler implements AccessDeniedHandler {
     @Override
     public void handle(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, AccessDeniedException e) throws IOException, ServletException {
-        httpServletResponse.sendRedirect("/security-ssm-web/err/403.do");
+        httpServletResponse.sendRedirect("/security-ssm-web/err/err.do");
     }
 }

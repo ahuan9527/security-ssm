@@ -26,21 +26,21 @@
                     href="${pageContext.request.contextPath}/pages/main.jsp"><i
                     class="fa fa-dashboard"></i> <span>首页</span></a></li>
 
+            <security:authorize access="hasRole('ADMIN')">
             <li class="treeview"><a href="#"> <i class="fa fa-cogs"></i>
                 <span>系统管理</span> <span class="pull-right-container"> <i
                         class="fa fa-angle-left pull-right"></i>
 				</span>
-
+                </security:authorize>
 
             </a>
                 <ul class="treeview-menu">
 
-                    <security:authorize access="hasRole('ADMIN')">
+
                     <li id="system-setting"><a
                             href="${pageContext.request.contextPath}/user/findAll.do"> <i
                             class="fa fa-circle-o"></i> 用户管理
                     </a></li>
-                    </security:authorize>
 
                     <li id="system-setting"><a
                             href="${pageContext.request.contextPath}/role/findAll.do"> <i

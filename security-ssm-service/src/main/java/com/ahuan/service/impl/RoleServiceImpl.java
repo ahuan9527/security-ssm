@@ -5,6 +5,7 @@ import com.ahuan.domain.Role;
 import com.ahuan.exception.BusinessException;
 import com.ahuan.exception.ResultEnum;
 import com.ahuan.service.IRoleService;
+import com.itheima.ssm.utils.GetUUID;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
@@ -28,6 +29,7 @@ public class RoleServiceImpl implements IRoleService {
         if (StringUtils.isEmpty(role)){
             throw new BusinessException(ResultEnum.NOTNULL_ERROR);
         }
+        role.setId(GetUUID.getUUID32());
         roleDao.save(role);
     }
 

@@ -6,6 +6,7 @@ import com.ahuan.domain.UserInfo;
 import com.ahuan.exception.BusinessException;
 import com.ahuan.exception.ResultEnum;
 import com.ahuan.service.IUserService;
+import com.itheima.ssm.utils.GetUUID;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.User;
@@ -63,11 +64,10 @@ public class UserServiceImpl implements IUserService {
 
     @Override
     public void save(UserInfo user) throws Exception {
-        if ("11".equals(user.getPassword())){
-            throw new BusinessException(ResultEnum.UNKNOW_ERROR);
-        }
+
         String encode = passwordEncoder.encode(user.getPassword());
         user.setPassword(encode);
+        user.setId(GetUUID.getUUID32());
         userDao.save(user);
     }
 
